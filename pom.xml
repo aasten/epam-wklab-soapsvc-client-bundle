@@ -33,7 +33,7 @@
                             <sourceRoot>${project.build.directory}/generated/cxf</sourceRoot>
                             <wsdlOptions>
                                 <wsdlOption>
-                                    <wsdl>${basedir}/../server/src/main/webapp/META-INF/PersonFriends.wsdl</wsdl>
+                                    <wsdl>${basedir}/server/src/main/webapp/META-INF/PersonFriends.wsdl</wsdl>
                                 </wsdlOption>
                             </wsdlOptions>
                         </configuration>
