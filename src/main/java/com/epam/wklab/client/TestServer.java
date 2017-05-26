@@ -3,10 +3,10 @@ package com.epam.wklab.client;
 import com.epam.wklab.person.Friends;
 import com.epam.wklab.person.Person;
 import com.epam.wklab.person.ObjectFactory;
-import com.epam.wklab.soap.GetFriends;
-import com.epam.wklab.soap.NoMatchedFriendsException_Exception;
-import com.epam.wklab.soap.PersonFriendsIface;
-import com.epam.wklab.soap.PersonFriendsService;
+import com.epam.wklab.soap.api.GetFriends;
+import com.epam.wklab.soap.api.NoMatchedFriendsException_Exception;
+import com.epam.wklab.soap.api.PersonFriendsIface;
+import com.epam.wklab.soap.simpl.PersonFriendsService;
 
 import javax.xml.datatype.DatatypeConfigurationException;
 import javax.xml.datatype.DatatypeFactory;
